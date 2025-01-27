@@ -31,7 +31,7 @@ This roadmap is designed to guide you through the essential technologies and too
 1. Contribute to open source projects.
 2. Build personal projects.
 
-mermaid
+```mermaid
 graph TD;
   A[Basics] --> B[HTML];
   A --> C[CSS];
@@ -49,3 +49,4 @@ graph TD;
   P --> S[PWA];
   T[Next Steps] --> U[Contribute to open source projects];
   T --> V[Build personal projects];
+```
