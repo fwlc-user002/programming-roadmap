@@ -1,5 +1,5 @@
 ```mermaid
-graph TD;
+graph TB;
   A[Basics] --> B[HTML];
   A --> C[CSS];
   A --> D[JavaScript];
