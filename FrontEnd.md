@@ -6,7 +6,7 @@ This roadmap is designed to guide you from foundational knowledge about networks
 
 ```mermaid
 graph LR;
-  A[1. Frontend Roadmap] --> B[2. Foundations];
+  A[1.0 Frontend Roadmap] --> B[2. Foundations];
   B --> C[2.1 Understanding Networks];
   C --> D[2.1.1 Basics of HTTP/HTTPS];
   C --> E[2.1.2 DNS and how websites work];
