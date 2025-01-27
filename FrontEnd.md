@@ -1,4 +1,11 @@
-```graph LR;
+# Frontend Roadmap 🚀
+
+This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path to build and enhance your skills step by step.
+
+## Graphical Representation
+
+```mermaid
+graph LR;
   A[Frontend Roadmap] --> B[Foundations];
   B --> C[Understanding Networks];
   C --> D[Basics of HTTP/HTTPS];
@@ -62,4 +69,3 @@
   BG --> BJ[Mentor Juniors];
   BG --> BK[Learn System Design];
   BG --> BL[Stay Updated];
-```
