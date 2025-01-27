@@ -30,8 +30,7 @@ This roadmap is designed to guide you through the essential technologies and too
 1. Contribute to open source projects.
 2. Build personal projects.
 
-```mermaid
-graph TD;
+graph TB;
   A[Basics] --> B[HTML];
   A --> C[CSS];
   A --> D[JavaScript];
