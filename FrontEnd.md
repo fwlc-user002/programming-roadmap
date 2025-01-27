@@ -31,7 +31,13 @@ This roadmap is designed to guide you through the essential technologies and too
 2. Build personal projects.
 
 ```mermaid
-graph TD;
-  T[Next Steps] --> U[Contribute to open source projects];
+graph TB;
+  T[Next Steps];
+  T --> U[Contribute to open source projects];
   T --> V[Build personal projects];
+  U --> W[Collaborate with other developers];
+  V --> X[Showcase on portfolio websites];
+  W --> Y[Attend developer meetups];
+  X --> Z[Share projects on GitHub];
+  Z --> AA[Receive feedback and improve];
 ```
