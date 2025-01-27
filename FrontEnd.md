@@ -1,4 +1,4 @@
-graph LR;
+```graph LR;
   A[Frontend Roadmap] --> B[Foundations];
   B --> C[Understanding Networks];
   C --> D[Basics of HTTP/HTTPS];
