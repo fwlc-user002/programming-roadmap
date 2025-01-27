@@ -1,50 +1,64 @@
-# Frontend Roadmap 🚀
-
-This roadmap is designed to guide you through the essential technologies and tools needed to become a frontend developer. Follow this structured path to enhance your skills step by step.
-
-## 📚 Basics
-- Learn **HTML**
-- Master **CSS**
-- Dive into **JavaScript**
-
-## 🎨 Styling
-- CSS Frameworks
-  - Bootstrap
-  - Tailwind CSS
-
-## ⚙️ JavaScript Frameworks
-- React.js
-- Vue.js
-- Angular
-
-## 🛠️ Tools & Workflow
-- Version Control
-- Build Tools
-
-## 🏗️ Advanced Topics
-- TypeScript
-- Testing
-- Progressive Web Apps (PWA)
-
-## 🎯 Next Steps
-1. Contribute to open source projects.
-2. Build personal projects.
-
-```mermaid
-graph TD;
-  A[Basics] --> B[HTML];
-  A --> C[CSS];
-  A --> D[JavaScript];
-  E[Styling] --> F[CSS Frameworks];
-  F --> G[Bootstrap];
-  F --> H[Tailwind CSS];
-  I[JavaScript Frameworks] --> J[React.js];
-  I --> K[Vue.js];
-  I --> L[Angular];
-  M[Tools & Workflow] --> N[Version Control];
-  M --> O[Build Tools];
-  P[Advanced Topics] --> Q[TypeScript];
-  P --> R[Testing];
-  P --> S[PWA];
-  T[Next Steps] --> U[Contribute to open source projects];
-  T --> V[Build personal projects];
+graph LR;
+  A[Frontend Roadmap] --> B[Foundations];
+  B --> C[Understanding Networks];
+  C --> D[Basics of HTTP/HTTPS];
+  C --> E[DNS and how websites work];
+  C --> F[REST APIs];
+  B --> G[Web Fundamentals];
+  G --> H[How Browsers Work];
+  G --> I[Critical Rendering Path];
+  G --> J[DOM, CSSOM, and Event Loop];
+  A --> K[Core Skills];
+  K --> L[HTML];
+  L --> M[Semantic HTML];
+  L --> N[Accessibility];
+  K --> O[CSS];
+  O --> P[Flexbox & Grid];
+  O --> Q[Responsive Design];
+  K --> R[JavaScript];
+  R --> S[ES6+ Features];
+  R --> T[Fetch API and Promises];
+  A --> U[Styling];
+  U --> V[CSS Frameworks];
+  V --> W[Bootstrap];
+  V --> X[Tailwind CSS];
+  U --> Y[Component Libraries];
+  Y --> Z[Material UI];
+  Y --> AA[Ant Design];
+  A --> AB[Frameworks and Libraries];
+  AB --> AC[React.js];
+  AC --> AD[Hooks];
+  AC --> AE[Redux];
+  AB --> AF[Vue.js];
+  AF --> AG[Vuex];
+  AB --> AH[Angular];
+  AH --> AI[RxJS];
+  A --> AJ[Tools & Workflow];
+  AJ --> AK[Version Control];
+  AK --> AL[Git];
+  AK --> AM[GitHub];
+  AJ --> AN[Package Managers];
+  AN --> AO[npm];
+  AN --> AP[yarn];
+  AJ --> AQ[Build Tools];
+  AQ --> AR[Webpack];
+  AQ --> AS[Vite];
+  A --> AT[Advanced Topics];
+  AT --> AU[TypeScript];
+  AU --> AV[Interfaces];
+  AU --> AW[Generics];
+  AT --> AX[Testing];
+  AX --> AY[Unit Testing];
+  AX --> AZ[Integration Testing];
+  AT --> BA[Performance Optimization];
+  BA --> BB[Lazy Loading];
+  BA --> BC[Lighthouse];
+  AT --> BD[PWA];
+  BD --> BE[Service Workers];
+  BD --> BF[Web Manifest];
+  A --> BG[Becoming a Senior Frontend Developer];
+  BG --> BH[Contribute to Open Source];
+  BG --> BI[Build Complex Applications];
+  BG --> BJ[Mentor Juniors];
+  BG --> BK[Learn System Design];
+  BG --> BL[Stay Updated];
