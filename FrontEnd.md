@@ -75,15 +75,15 @@ This roadmap is designed to guide you from foundational knowledge about networks
 5. Learn about system design and architecture for frontend.
 
 ```mermaid
-graph LR;
+graph TD;
   A[Foundations] --> B[Understanding Networks];
-  B --> C[HTTP/HTTPS];
-  B --> D[DNS];
+  B --> C[Basics of HTTP/HTTPS];
+  B --> D[DNS and how websites work];
   B --> E[REST APIs];
   A --> F[Web Fundamentals];
   F --> G[How Browsers Work];
   F --> H[Critical Rendering Path];
-  F --> I[DOM, CSSOM, Event Loop];
+  F --> I[DOM, CSSOM, and Event Loop];
   J[Core Skills] --> K[HTML];
   K --> L[Semantic HTML];
   K --> M[Accessibility];
@@ -92,13 +92,13 @@ graph LR;
   N --> P[Responsive Design];
   J --> Q[JavaScript];
   Q --> R[ES6+ Features];
-  Q --> S[Fetch API];
-  T[Styling] --> U[CSS Frameworks];
-  U --> V[Bootstrap];
-  U --> W[Tailwind CSS];
-  T --> X[Component Libraries];
-  X --> Y[Material UI];
-  X --> Z[Ant Design];
+  Q --> S[Fetch API and Promises];
+  T[Styling] --> U[CSS Preprocessors];
+  U --> V[SASS];
+  U --> W[LESS];
+  T --> X[CSS Frameworks];
+  X --> Y[Bootstrap];
+  X --> Z[Tailwind CSS];
   AA[Frameworks and Libraries] --> AB[React.js];
   AB --> AC[Hooks];
   AB --> AD[Redux];
@@ -132,3 +132,4 @@ graph LR;
   BF --> BI[Mentor Juniors];
   BF --> BJ[Learn System Design];
   BF --> BK[Stay Updated];
+```
