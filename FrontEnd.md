@@ -2,134 +2,70 @@
 
 This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path to build and enhance your skills step by step.
 
-## 📚 Foundations
-- **Understanding Networks**
-  - Basics of HTTP/HTTPS
-  - DNS and how websites work
-  - REST APIs
-- **Web Fundamentals**
-  - How browsers work (Rendering engines, JS engines)
-  - Critical rendering path
-  - DOM, CSSOM, and the event loop
-
-## 🎨 Core Skills
-- **HTML**
-  - Semantic HTML
-  - Accessibility (ARIA roles, best practices)
-- **CSS**
-  - Box Model, Positioning
-  - Flexbox & Grid
-  - Responsive Design
-- **JavaScript**
-  - ES6+ features
-  - DOM Manipulation
-  - Event Handling
-  - Fetch API and Promises
-
-## 🎨 Styling
-- CSS Preprocessors (SASS, LESS)
-- CSS Frameworks
-  - Bootstrap
-  - Tailwind CSS
-- Component Libraries
-  - Material UI
-  - Ant Design
-
-## ⚙️ Frameworks and Libraries
-- **JavaScript Frameworks**
-  - React.js (Hooks, Context API, Redux)
-  - Vue.js (Vuex, Composition API)
-  - Angular (RxJS, Dependency Injection)
-
-## 🛠️ Tools & Workflow
-- **Version Control**
-  - Git (branches, merging, conflict resolution)
-  - GitHub (collaborating on projects)
-- **Package Managers**
-  - npm, yarn
-- **Build Tools**
-  - Webpack, Vite, Parcel
-- **Linters and Formatters**
-  - ESLint, Prettier
-
-## 🏗️ Advanced Topics
-- **TypeScript**
-  - Interfaces and Generics
-  - Type Guards
-- **Testing**
-  - Unit Testing (Jest, Mocha)
-  - Integration Testing (Cypress, Playwright)
-- **Performance Optimization**
-  - Lighthouse
-  - Code Splitting
-  - Lazy Loading
-- **Progressive Web Apps (PWA)**
-  - Service Workers
-  - Web Manifest
-
-## 🎯 Becoming a Senior Frontend Developer
-1. Contribute to large-scale open source projects.
-2. Build complex and scalable applications.
-3. Mentor junior developers.
-4. Stay updated with industry trends.
-5. Learn about system design and architecture for frontend.
 
 ```mermaid
-graph LR;
-  A[Foundations] --> B[Understanding Networks];
-  B --> C[Basics of HTTP/HTTPS];
-  B --> D[DNS and how websites work];
-  B --> E[REST APIs];
-  A --> F[Web Fundamentals];
-  F --> G[How Browsers Work];
-  F --> H[Critical Rendering Path];
-  F --> I[DOM, CSSOM, and Event Loop];
-  J[Core Skills] --> K[HTML];
-  K --> L[Semantic HTML];
-  K --> M[Accessibility];
-  J --> N[CSS];
-  N --> O[Flexbox & Grid];
-  N --> P[Responsive Design];
-  J --> Q[JavaScript];
-  Q --> R[ES6+ Features];
-  Q --> S[Fetch API and Promises];
-  T[Styling] --> U[CSS Preprocessors];
-  U --> V[SASS];
-  U --> W[LESS];
-  T --> X[CSS Frameworks];
-  X --> Y[Bootstrap];
-  X --> Z[Tailwind CSS];
-  AA[Frameworks and Libraries] --> AB[React.js];
-  AB --> AC[Hooks];
-  AB --> AD[Redux];
-  AA --> AE[Vue.js];
-  AE --> AF[Vuex];
-  AA --> AG[Angular];
-  AG --> AH[RxJS];
-  AI[Tools & Workflow] --> AJ[Version Control];
-  AJ --> AK[Git];
-  AJ --> AL[GitHub];
-  AI --> AM[Package Managers];
-  AM --> AN[npm];
-  AM --> AO[yarn];
-  AI --> AP[Build Tools];
-  AP --> AQ[Webpack];
-  AP --> AR[Vite];
-  AS[Advanced Topics] --> AT[TypeScript];
-  AT --> AU[Interfaces];
-  AT --> AV[Generics];
-  AS --> AW[Testing];
-  AW --> AX[Unit Testing];
-  AW --> AY[Integration Testing];
-  AS --> AZ[Performance Optimization];
-  AZ --> BA[Lazy Loading];
-  AZ --> BB[Lighthouse];
-  AS --> BC[PWA];
-  BC --> BD[Service Workers];
-  BC --> BE[Web Manifest];
-  BF[Senior Frontend Developer] --> BG[Contribute to Open Source];
-  BF --> BH[Build Complex Applications];
-  BF --> BI[Mentor Juniors];
-  BF --> BJ[Learn System Design];
-  BF --> BK[Stay Updated];
+graph TB;
+  A[Frontend Roadmap] --> B[Foundations];
+  B --> C[Understanding Networks];
+  C --> D[Basics of HTTP/HTTPS];
+  C --> E[DNS and how websites work];
+  C --> F[REST APIs];
+  B --> G[Web Fundamentals];
+  G --> H[How Browsers Work];
+  G --> I[Critical Rendering Path];
+  G --> J[DOM, CSSOM, and Event Loop];
+  A --> K[Core Skills];
+  K --> L[HTML];
+  L --> M[Semantic HTML];
+  L --> N[Accessibility];
+  K --> O[CSS];
+  O --> P[Flexbox & Grid];
+  O --> Q[Responsive Design];
+  K --> R[JavaScript];
+  R --> S[ES6+ Features];
+  R --> T[Fetch API and Promises];
+  A --> U[Styling];
+  U --> V[CSS Frameworks];
+  V --> W[Bootstrap];
+  V --> X[Tailwind CSS];
+  U --> Y[Component Libraries];
+  Y --> Z[Material UI];
+  Y --> AA[Ant Design];
+  A --> AB[Frameworks and Libraries];
+  AB --> AC[React.js];
+  AC --> AD[Hooks];
+  AC --> AE[Redux];
+  AB --> AF[Vue.js];
+  AF --> AG[Vuex];
+  AB --> AH[Angular];
+  AH --> AI[RxJS];
+  A --> AJ[Tools & Workflow];
+  AJ --> AK[Version Control];
+  AK --> AL[Git];
+  AK --> AM[GitHub];
+  AJ --> AN[Package Managers];
+  AN --> AO[npm];
+  AN --> AP[yarn];
+  AJ --> AQ[Build Tools];
+  AQ --> AR[Webpack];
+  AQ --> AS[Vite];
+  A --> AT[Advanced Topics];
+  AT --> AU[TypeScript];
+  AU --> AV[Interfaces];
+  AU --> AW[Generics];
+  AT --> AX[Testing];
+  AX --> AY[Unit Testing];
+  AX --> AZ[Integration Testing];
+  AT --> BA[Performance Optimization];
+  BA --> BB[Lazy Loading];
+  BA --> BC[Lighthouse];
+  AT --> BD[PWA];
+  BD --> BE[Service Workers];
+  BD --> BF[Web Manifest];
+  A --> BG[Becoming a Senior Frontend Developer];
+  BG --> BH[Contribute to Open Source];
+  BG --> BI[Build Complex Applications];
+  BG --> BJ[Mentor Juniors];
+  BG --> BK[Learn System Design];
+  BG --> BL[Stay Updated];
 ```
