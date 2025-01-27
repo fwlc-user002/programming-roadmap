@@ -75,7 +75,7 @@ This roadmap is designed to guide you from foundational knowledge about networks
 5. Learn about system design and architecture for frontend.
 
 ```mermaid
-graph RL;
+graph LR;
   A[Foundations] --> B[Understanding Networks];
   B --> C[HTTP/HTTPS];
   B --> D[DNS];
