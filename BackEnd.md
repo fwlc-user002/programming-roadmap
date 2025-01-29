@@ -75,6 +75,20 @@ graph LR;
   style X fill:#fc9,stroke:#333,stroke-width:4px,color:#000;
   style Y fill:#f99,stroke:#333,stroke-width:4px,color:#000;
   style Z fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-```
-
-This roadmap will help you become a professional backend developer by learning essential skills in a structured way. 🚀
+  style AA fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
+  style AB fill:#ccf,stroke:#333,stroke-width:4px,color:#000;
+  style AC fill:#cff,stroke:#333,stroke-width:4px,color:#000;
+  style AD fill:#fcf,stroke:#333,stroke-width:4px,color:#000;
+  style AE fill:#ffc,stroke:#333,stroke-width:4px,color:#000;
+  style AF fill:#cff,stroke:#333,stroke-width:4px,color:#000;
+  style AG fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
+  style AH fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
+  style AI fill:#f9f,stroke:#333,stroke-width:4px,color:#000;
+  style AJ fill:#bbf,stroke:#333,stroke-width:4px,color:#000;
+  style AK fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
+  style AL fill:#fc9,stroke:#333,stroke-width:4px,color:#000;
+  style AM fill:#f99,stroke:#333,stroke-width:4px,color:#000;
+  style AN fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
+  style AO fill:#9cf,stroke:#333,stroke-width:4px,color:#000;
+  style AP fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
+  style AQ fill:#ccf,stroke:#333,stroke-width:4px,color:#0
