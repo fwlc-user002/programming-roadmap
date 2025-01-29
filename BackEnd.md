@@ -91,4 +91,4 @@ graph LR;
   style AN fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
   style AO fill:#9cf,stroke:#333,stroke-width:4px,color:#000;
   style AP fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
-  style AQ fill:#ccf,stroke:#333,stroke-width:4px,color:#0
+  style AQ fill:#ccf,stroke:#333,stroke-width:4px,color:#000;
