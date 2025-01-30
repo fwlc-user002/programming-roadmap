@@ -22,9 +22,10 @@ These skills are **not required** but can be beneficial depending on your projec
 | **Vue.js**               | 🔵 Optional       | Great alternative to React but not mandatory. |
 | **Angular**              | 🔵 Optional       | Mostly used in enterprise-level projects, not required for all. |
 | **Bootstrap**            | 🔵 Optional       | Useful for fast UI development but not a must-learn. |
-| **Tailwind CSS**         | 🟢 Good to Learn  | Modern utility-first CSS framework, helpful for custom designs. |
+| **Tailwind CSS**         | 🔴 Mandatory      | A modern, highly efficient CSS framework widely used in the industry. |
 | **Redux**                | 🟢 Good to Learn  | Important for state management in large React projects. |
 | **RxJS**                 | 🔵 Optional       | Mostly for Angular apps, useful but not essential. |
+| **Hooks (React.js)**     | 🔴 Mandatory      | Essential for modern React development. |
 | **Git**                  | 🔴 Mandatory      | Version control is a must-have skill for any developer. |
 | **GitHub**               | 🔴 Mandatory      | Essential for collaboration and open-source contributions. |
 | **npm**                  | 🔴 Mandatory      | Needed for managing JavaScript dependencies. |
@@ -59,17 +60,15 @@ graph LR;
   R --> T[3.3.2 Fetch API and Promises];  
   A --> U[4.0 Styling];
   U --> V[4.1 CSS Frameworks];
-  V --> W[Choose One CSS Framework];
-  W --> Y[Tailwind CSS];   
-  W --> X[Bootstrap];  
+  V --> X[Bootstrap];  
+  V --> Y[Tailwind CSS];  
   U --> Z[4.2 Component Libraries];
   Z --> AA[Material UI];  
   Z --> AB[Ant Design];  
   A --> AC[5.0 Frameworks and Libraries];
-  AC --> AD[Choose One Framework];  
-  AD --> AE[React.js];  
-  AD --> AF[Vue.js];  
-  AD --> AG[Angular];  
+  AC --> AE[React.js];  
+  AC --> AF[Vue.js];  
+  AC --> AG[Angular];  
   AE --> AH[Hooks];  
   AE --> AI[Redux];  
   AG --> AJ[RxJS];  
@@ -109,6 +108,6 @@ graph LR;
   classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
 
   %% Assign styles to nodes
-  class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ,AE,AM mandatory;
+  class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ,AE,AH,Y mandatory;
   class F,I,T,AA,AB,AI,AJ,AQ,AT,AW,AX,BA,BC,BD,BF,BG,BI,BK,BL,AI,Redux,Webpack goodToLearn;
-  class W,X,Y,AD,AF,AG,Vue,Angular,Boostrap,Vite,RxJS,yarn optional;
+  class X,AF,AG,Vue,Angular,Boostrap,Vite,RxJS,yarn optional;
