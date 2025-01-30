@@ -64,4 +64,4 @@ graph TD;
   class G,H,I,J,K,L,M,N,O,P,R,S,T,W,X,Z,AA,AB,AF mandatory;
   class AC,AH,AJ goodToLearn;
   class Q,U,V,Y,AD,AG,AI optional;
-```
+
