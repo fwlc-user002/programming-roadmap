@@ -2,13 +2,21 @@
 
 This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path to become a proficient frontend developer.
 
-## Color Coding Explanation 🎨
+## **Color Coding Explanation 🎨**
 
-In the graphical representation below, each node is color-coded to indicate its importance or priority:
+### **🔴 Red (Mandatory):**
+These are the essential skills and knowledge areas that every frontend developer must master to build robust and scalable applications.
 
-- 🔴 **Red (Mandatory):** These are the essential skills and knowledge areas that every frontend developer must master.
-- 🟢 **Green (Good to Learn):** These are skills that are not strictly required but are highly recommended to enhance your capabilities.
-- 🔵 **Blue (Optional):** These are optional skills or tools that you can choose based on your interests or project requirements.
+### **🟢 Green (Good to Learn):**
+These skills are not strictly required but are highly recommended to enhance your abilities and make you a more versatile developer.
+
+### **🔵 Blue (Optional):**
+These are optional tools or skills. You can explore them based on your interests or specific project requirements.
+
+### **⚫ Black (General Knowledge):**
+These are general knowledge areas that provide foundational understanding. While they may not directly impact your coding, they are crucial for a holistic understanding of frontend development.
+
+---
 
 ## Graphical Representation
 
@@ -83,8 +91,10 @@ graph LR;
   classDef mandatory fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:#000,font-weight:bold;
   classDef goodToLearn fill:#ccffcc,stroke:#00ff00,stroke-width:2px,color:#000,font-weight:bold;
   classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
+  classDef general fill:#f0f0f0,stroke:#000000,stroke-width:2px,color:#000,font-weight:bold;
 
   %% Assign styles to nodes
   class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ mandatory;
   class F,I,T,AA,AB,AI,AJ,AQ,AT,AW,AX,BA,BC,BD,BF,BG,BI,BK,BL goodToLearn;
   class W,X,Y,AD,AF,AG optional;
+  class C,G,L,R,AC,AK,AU,BH general;
