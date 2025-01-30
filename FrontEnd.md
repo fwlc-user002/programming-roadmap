@@ -65,7 +65,3 @@ graph TD;
   class AC,AH,AJ goodToLearn;
   class Q,U,V,Y,AD,AG,AI optional;
 ```
-
----
-
-Let me know if you need additional adjustments or a more detailed explanation for any section!
