@@ -1,6 +1,14 @@
 # Frontend Roadmap 🚀
 
-This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path[...]
+This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path to become a proficient frontend developer.
+
+## Color Coding Explanation 🎨
+
+In the graphical representation below, each node is color-coded to indicate its importance or priority:
+
+- 🔴 **Red (Mandatory):** These are the essential skills and knowledge areas that every frontend developer must master.
+- 🟢 **Green (Good to Learn):** These are skills that are not strictly required but are highly recommended to enhance your capabilities.
+- 🔵 **Blue (Optional):** These are optional skills or tools that you can choose based on your interests or project requirements.
 
 ## Graphical Representation
 
