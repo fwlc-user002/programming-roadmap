@@ -15,92 +15,45 @@ These skills are **not required** but can be beneficial depending on your projec
 
 ---
 
-## **Categorized Skills**
-| **Skill**                | **Category**       | **Reason** |
-|--------------------------|-------------------|------------------------------------------------------|
-| **React.js**             | 🔴 Mandatory      | One of the most widely used frameworks, crucial for many jobs. |
-| **Vue.js**               | 🔵 Optional       | Great alternative to React but not mandatory. |
-| **Angular**              | 🔵 Optional       | Mostly used in enterprise-level projects, not required for all. |
-| **Bootstrap**            | 🔵 Optional       | Useful for fast UI development but not a must-learn. |
-| **Tailwind CSS**         | 🔴 Mandatory      | A modern, highly efficient CSS framework widely used in the industry. |
-| **Redux**                | 🟢 Good to Learn  | Important for state management in large React projects. |
-| **RxJS**                 | 🔵 Optional       | Mostly for Angular apps, useful but not essential. |
-| **Hooks (React.js)**     | 🔴 Mandatory      | Essential for modern React development. |
-| **Git**                  | 🔴 Mandatory      | Version control is a must-have skill for any developer. |
-| **GitHub**               | 🔴 Mandatory      | Essential for collaboration and open-source contributions. |
-| **npm**                  | 🔴 Mandatory      | Needed for managing JavaScript dependencies. |
-| **yarn**                 | 🔵 Optional       | Alternative to npm, learning it is not necessary. |
-| **Webpack**              | 🟢 Good to Learn  | Important for optimizing and bundling front-end code. |
-| **Vite**                 | 🔵 Optional       | Faster alternative to Webpack, useful for modern projects. |
-
----
-
 ## **Graphical Representation**
 
 ```mermaid
-graph LR;
-  A[1.0 Frontend Roadmap] --> B[2.0 Foundations];
-  B --> C[2.1 Understanding Networks];
-  C --> D[2.1.1 Basics of HTTP/HTTPS];  
-  C --> E[2.1.2 DNS and how websites work];  
-  C --> F[2.1.3 REST APIs];  
-  B --> G[2.2 Web Fundamentals];
-  G --> H[2.2.1 How Browsers Work];  
-  G --> I[2.2.2 Critical Rendering Path];  
-  G --> J[2.2.3 DOM, CSSOM, and Event Loop];  
-  A --> K[3.0 Core Skills];
-  K --> L[3.1 HTML];
-  L --> M[3.1.1 Semantic HTML];  
-  L --> N[3.1.2 Accessibility];  
-  K --> O[3.2 CSS];
-  O --> P[3.2.1 Flexbox & Grid];  
-  O --> Q[3.2.2 Responsive Design];  
-  K --> R[3.3 JavaScript];
-  R --> S[3.3.1 ES6+ Features];  
-  R --> T[3.3.2 Fetch API and Promises];  
-  A --> U[4.0 Styling];
-  U --> V[4.1 CSS Frameworks];
-  V --> Y[Tailwind CSS];  
-  V --> X[Bootstrap];  
-  U --> Z[4.2 Component Libraries];
-  Z --> AA[Material UI];  
-  Z --> AB[Ant Design];  
-  A --> AC[5.0 Frameworks and Libraries];
-  AC --> AE[React.js];  
-  AC --> AF[Vue.js];  
-  AC --> AG[Angular];  
-  AE --> AH[Hooks];  
-  AE --> AI[Redux];  
-  AG --> AJ[RxJS];  
-  A --> AK[6.0 Tools & Workflow];
-  AK --> AL[6.1 Version Control];
-  AL --> AM[Git];  
-  AL --> AN[GitHub];  
-  AK --> AO[6.2 Package Managers];
-  AO --> AP[npm];  
-  AO --> AQ[yarn];  
-  AK --> AR[6.3 Build Tools];
-  AR --> AS[Webpack];  
-  AR --> AT[Vite];  
-  A --> AU[7.0 Advanced Topics];
-  AU --> AV[7.1 TypeScript];
-  AV --> AW[Interfaces];  
-  AV --> AX[Generics];  
-  AU --> AY[7.2 Testing];
-  AY --> AZ[Unit Testing];  
-  AY --> BA[Integration Testing];  
-  AU --> BB[7.3 Performance Optimization];
-  BB --> BC[Lazy Loading];  
-  BB --> BD[Lighthouse];  
-  AU --> BE[7.4 PWA];
-  BE --> BF[Service Workers];  
-  BE --> BG[Web Manifest];  
-  A --> BH[8.0 Becoming a Senior Frontend Developer];
-  BH --> BI[Contribute to Open Source];  
-  BH --> BJ[Build Complex Applications];  
-  BH --> BK[Mentor Juniors];  
-  BH --> BL[Learn System Design];  
-  BH --> BM[Stay Updated];  
+graph TD;
+  A[Frontend Roadmap] --> B[Internet];
+  A --> C[HTML];
+  A --> D[CSS];
+  A --> E[JavaScript];
+  A --> F[Version Control Systems];
+  B --> G[How does the Internet Work? 🔴];
+  B --> H[What is HTTP? 🔴];
+  B --> I[What is a Domain Name? 🔴];
+  B --> J[What is Hosting? 🔴];
+  B --> K[DNS and How it Works? 🔴];
+  B --> L[Browsers and How They Work? 🔴];
+  C --> M[Learn the Basics 🔴];
+  C --> N[Writing Semantic HTML 🔴];
+  C --> O[Forms and Validations 🔴];
+  C --> P[Accessibility 🔴];
+  C --> Q[SEO Basics 🔵];
+  D --> R[Learn the Basics 🔴];
+  D --> S[Making Layouts 🔴];
+  D --> T[Responsive Design 🔴];
+  D --> U[CSS Architecture 🔵];
+  D --> V[CSS Preprocessors (Sass, PostCSS) 🔵];
+  E --> W[Learn the Basics 🔴];
+  E --> X[Learn DOM Manipulation 🔴];
+  E --> Y[Fetch API / AJAX \(XHR\) 🔵];
+  E --> Z[ES6+ and Modern JavaScript 🔴];
+  F --> AA[Git 🔴];
+  F --> AB[GitHub 🔴];
+  F --> AC[GitLab 🟢];
+  F --> AD[Bitbucket 🔵];
+  D --> AE[CSS Frameworks];
+  AE --> AF[Tailwind CSS 🔴];
+  AE --> AG[Bootstrap 🔵];
+  AE --> AH[Materialize 🟢];
+  AE --> AI[Foundation 🔵];
+  AE --> AJ[Bulma 🟢];
 
   %% Styles for categories
   classDef mandatory fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:#000,font-weight:bold;
@@ -108,6 +61,11 @@ graph LR;
   classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
 
   %% Assign styles to nodes
-  class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ,AE,AH,Y mandatory;
-  class F,I,T,AA,AB,AI,AJ,AQ,AT,AW,AX,BA,BC,BD,BF,BG,BI,BK,BL,AI,Redux,Webpack goodToLearn;
-  class X,AF,AG,Vue,Angular,Boostrap,Vite,RxJS,yarn optional;
+  class G,H,I,J,K,L,M,N,O,P,R,S,T,W,X,Z,AA,AB,AF mandatory;
+  class AC,AH,AJ goodToLearn;
+  class Q,U,V,Y,AD,AG,AI optional;
+```
+
+---
+
+Let me know if you need additional adjustments or a more detailed explanation for any section!
