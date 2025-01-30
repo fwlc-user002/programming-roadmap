@@ -4,55 +4,14 @@ This roadmap is designed to guide you from foundational knowledge to mastering t
 
 ## **🎨 Color Coding Explanation**
 
-### **🔴 Red (Mandatory - Essential Skills)**
-These are the core skills and knowledge areas every backend developer **must** master to work professionally.
+### **🟣 Personal Recommendation / Opinion**
+These are highly recommended skills or technologies based on industry standards and trends.
 
-### **🟢 Green (Good to Learn)**
-These skills are important to enhance your backend development capabilities but are not strictly required.
+### **🟢 Alternative Option / Pick This or Purple**
+These are optional alternatives; you can choose them based on your preferences or project needs.
 
-### **🔵 Blue (Optional - Based on Your Interest)**
-These skills are optional and can be learned based on your project needs or interests.
-
-### **💜 Purple (Choose One)**
-For these skills, you should select **one** based on your preferred programming language or project requirements.
-
----
-
-## **Categorized Skills**
-
-| **Skill**                | **Category**       | **Reason** |
-|--------------------------|-------------------|------------------------------------------------------|
-| **Basics of HTTP/HTTPS** | 🔴 Mandatory      | Fundamental for understanding how servers communicate. |
-| **DNS and Load Balancing** | 🟢 Good to Learn  | Important for high availability and scalability. |
-| **REST vs GraphQL**       | 🟢 Good to Learn  | Knowing both helps in selecting the right tool for your API. |
-| **Linux Basics**          | 🔴 Mandatory      | Essential for managing servers in production environments. |
-| **Shell Scripting**       | 🟢 Good to Learn  | Automates repetitive tasks efficiently. |
-| **Process Management**    | 🔵 Optional       | Useful but not always required for backend work. |
-| **JavaScript - Node.js**  | 💜 Purple         | Popular backend runtime, widely used in modern applications. |
-| **Python - Django/FastAPI** | 💜 Purple         | Useful for projects requiring speed and simplicity. |
-| **Java - Spring Boot**    | 💜 Purple         | Widely used in enterprise-level applications. |
-| **PHP - Laravel**         | 💜 Purple         | Useful for maintaining legacy or specific PHP projects. |
-| **SQL - PostgreSQL, MySQL** | 🔴 Mandatory      | Core skill for managing relational databases. |
-| **NoSQL - MongoDB, Redis** | 🟢 Good to Learn  | Useful for handling unstructured or semi-structured data. |
-| **ORMs - TypeORM, Prisma** | 🟢 Good to Learn  | Simplifies database interactions and reduces boilerplate code. |
-| **Building RESTful APIs**  | 🔴 Mandatory      | Core skill for creating server-side APIs. |
-| **GraphQL APIs**          | 🔵 Optional       | Suitable for specific use cases requiring flexible data querying. |
-| **Authentication (JWT, OAuth)** | 🔴 Mandatory  | Critical for securing user sessions and APIs. |
-| **Rate Limiting and Security** | 🔴 Mandatory  | Protects your server from abuse and enhances performance. |
-| **Containerization - Docker** | 🔴 Mandatory  | Essential for modern development and deployment workflows. |
-| **CI/CD Pipelines**       | 🟢 Good to Learn  | Automates testing and deployment for faster iterations. |
-| **Cloud Platforms - AWS, GCP, Azure** | 🟢 Good to Learn | Provides flexibility and scalability for hosting. |
-| **Serverless Architecture** | 🔵 Optional    | Useful for specific scenarios with unpredictable traffic. |
-| **Redis and Memcached**    | 🔴 Mandatory     | Critical for caching and improving performance. |
-| **Load Balancing**         | 🟢 Good to Learn  | Distributes traffic for high availability. |
-| **CDN and Edge Computing** | 🔵 Optional       | Improves performance for geographically distributed users. |
-| **Log Management (ELK, Prometheus)** | 🔴 Mandatory  | Important for debugging and monitoring applications. |
-| **Application Monitoring (New Relic, Datadog)** | 🟢 Good to Learn | Enhances visibility into server and app performance. |
-| **System Design**          | 🔴 Mandatory      | Essential for designing scalable and maintainable systems. |
-| **Distributed Systems**    | 🟢 Good to Learn  | Important for understanding modern large-scale architectures. |
-| **Message Brokers (Kafka, RabbitMQ)** | 🟢 Good to Learn | Facilitates asynchronous communication in microservices. |
-| **Contribute to Open Source** | 🔵 Optional    | Helps in gaining real-world experience and networking. |
-| **Learn Scalability Patterns** | 🟢 Good to Learn | Prepares you for handling high-traffic systems. |
+### **⚪ Order Not Strict / Learn Anytime**
+These skills or technologies can be learned in any order depending on your progress and requirements.
 
 ---
 
@@ -60,57 +19,118 @@ For these skills, you should select **one** based on your preferred programming 
 
 ```mermaid
 graph LR;
-  A[1.0 Backend Roadmap] --> B[2.0 Foundations];
-  B --> C[2.1 Understanding Servers];
-  C --> D[2.1.1 Basics of HTTP/HTTPS];
-  C --> E[2.1.2 DNS and Load Balancing];
-  C --> F[2.1.3 REST vs GraphQL];
-  B --> G[2.2 Operating Systems & CLI];
-  G --> H[2.2.1 Linux Basics];
-  G --> I[2.2.2 Shell Scripting];
-  G --> J[2.2.3 Process Management];
-  A --> K[3.0 Core Backend Skills];
-  K --> L[3.1 Programming Languages];
-  L --> M[3.1.1 JavaScript - Node.js];
-  L --> N[3.1.2 Python - Django/FastAPI];
-  L --> O[3.1.3 Java - Spring Boot];
-  L --> P[3.1.4 PHP - Laravel];
-  K --> Q[3.2 Databases];
-  Q --> R[3.2.1 SQL - PostgreSQL, MySQL];
-  Q --> S[3.2.2 NoSQL - MongoDB, Redis];
-  Q --> T[3.2.3 ORMs - TypeORM, Prisma];
-  A --> U[4.0 APIs and Frameworks];
-  U --> V[4.1 Building RESTful APIs];
-  U --> W[4.2 GraphQL APIs];
-  U --> X[4.3 Authentication - JWT, OAuth];
-  U --> Y[4.4 Rate Limiting and Security];
-  A --> Z[5.0 Server and Deployment];
-  Z --> AA[5.1 Containerization - Docker];
-  Z --> AB[5.2 CI/CD Pipelines];
-  Z --> AC[5.3 Cloud Platforms - AWS, GCP, Azure];
-  Z --> AD[5.4 Serverless Architecture];
-  A --> AE[6.0 Caching and Performance];
-  AE --> AF[6.1 Redis and Memcached];
-  AE --> AG[6.2 Load Balancing];
-  AE --> AH[6.3 CDN and Edge Computing];
-  A --> AI[7.0 Logging & Monitoring];
-  AI --> AJ[7.1 Log Management - ELK, Prometheus];
-  AI --> AK[7.2 Application Monitoring - New Relic, Datadog];
-  A --> AL[8.0 Becoming a Senior Backend Developer];
-  AL --> AM[8.1 Understanding System Design];
-  AL --> AN[8.2 Distributed Systems];
-  AL --> AO[8.3 Message Brokers - Kafka, RabbitMQ];
-  AL --> AP[8.4 Contribute to Open Source];
-  AL --> AQ[8.5 Learn Scalability Patterns];
+  A[Backend] --> B[Internet];
+  B --> B1[How does the Internet Work? 🟣];
+  B --> B2[What is HTTP? 🟣];
+  B --> B3[What is Domain Name? 🟣];
+  B --> B4[What is Hosting? 🟣];
+  B --> B5[DNS and How it Works? 🟣];
+  B --> B6[Browsers and How They Work? 🟣];
+
+  A --> C[Pick a Language];
+  C --> C1[JavaScript 🟣];
+  C --> C2[Python 🟢];
+  C --> C3[Java 🟢];
+  C --> C4[PHP 🟢];
+  C --> C5[Go 🟣];
+  C --> C6[Ruby 🟢];
+  C --> C7[C# 🟢];
+  C --> C8[Rust 🟢];
+
+  A --> D[Version Control Systems];
+  D --> D1[Git 🟣];
+  D --> D2[Repo Hosting Services];
+  D2 --> D3[GitHub 🟣];
+  D2 --> D4[GitLab 🟢];
+  D2 --> D5[Bitbucket 🟢];
+
+  A --> E[Relational Databases];
+  E --> E1[PostgreSQL 🟣];
+  E --> E2[MySQL 🟢];
+  E --> E3[MariaDB 🟢];
+  E --> E4[MS SQL 🟢];
+  E --> E5[Oracle 🟢];
+  E --> E6[SQLite 🟢];
+
+  A --> F[Learn About APIs];
+  F --> F1[REST 🟣];
+  F --> F2[JSON APIs 🟣];
+  F --> F3[SOAP ⚪];
+  F --> F4[gRPC ⚪];
+  F --> F5[GraphQL ⚪];
+  F --> F6[HATEOAS ⚪];
+  F --> F7[Open API Specs ⚪];
+
+  A --> G[Authentication];
+  G --> G1[JWT 🟣];
+  G --> G2[OAuth 🟣];
+  G --> G3[Basic Authentication 🟣];
+  G --> G4[Token Authentication 🟣];
+  G --> G5[Cookie-Based Auth 🟣];
+  G --> G6[OpenID ⚪];
+  G --> G7[SAML ⚪];
+
+  A --> H[Caching];
+  H --> H1[Redis 🟣];
+  H --> H2[Memcached 🟢];
+  H --> H3[Server-Side Caching 🟣];
+  H --> H4[Client-Side Caching 🟣];
+
+  A --> I[Web Security];
+  I --> I1[HTTPS 🟣];
+  I --> I2[CORS 🟣];
+  I --> I3[CSP 🟣];
+  I --> I4[SSL/TLS 🟣];
+  I --> I5[Server Security 🟣];
+  I --> I6[API Security Best Practices 🟣];
+
+  A --> J[Testing];
+  J --> J1[Unit Testing 🟣];
+  J --> J2[Integration Testing 🟣];
+  J --> J3[Functional Testing 🟣];
+
+  A --> K[Software Design & Architecture];
+  K --> K1[Design Patterns 🟣];
+  K --> K2[Domain-Driven Design 🟣];
+  K --> K3[Test-Driven Development 🟣];
+  K --> K4[Event Sourcing ⚪];
+  K --> K5[CQRS ⚪];
+
+  A --> L[Containerization & Virtualization];
+  L --> L1[Docker 🟣];
+  L --> L2[Kubernetes 🟢];
+
+  A --> M[Message Brokers];
+  M --> M1[RabbitMQ 🟢];
+  M --> M2[Kafka 🟣];
+
+  A --> N[NoSQL Databases];
+  N --> N1[MongoDB 🟣];
+  N --> N2[CouchDB 🟢];
+  N --> N3[Redis 🟣];
+  N --> N4[DynamoDB 🟢];
+
+  A --> O[Real-Time Data];
+  O --> O1[Server-Sent Events 🟣];
+  O --> O2[WebSockets 🟣];
+  O --> O3[Long Polling 🟣];
+  O --> O4[Short Polling 🟣];
+
+  A --> P[Building for Scale];
+  P --> P1[Load Shifting 🟣];
+  P --> P2[Throttling 🟣];
+  P --> P3[Backpressure 🟣];
+  P --> P4[Circuit Breaker 🟣];
+  P --> P5[Types of Scaling 🟣];
+  P --> P6[Migration Strategies 🟣];
 
   %% Styles for categories
-  classDef mandatory fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:#000,font-weight:bold;
-  classDef goodToLearn fill:#ccffcc,stroke:#00ff00,stroke-width:2px,color:#000,font-weight:bold;
-  classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
-  classDef chooseOne fill:#e0ccff,stroke:#800080,stroke-width:2px,color:#000,font-weight:bold;
+  classDef purple fill:#e1d5e7,stroke:#800080,stroke-width:2px,color:#000,font-weight:bold;
+  classDef green fill:#d9ead3,stroke:#38761d,stroke-width:2px,color:#000,font-weight:bold;
+  classDef gray fill:#f3f3f3,stroke:#999999,stroke-width:2px,color:#000,font-weight:bold;
 
   %% Assign styles to nodes
-  class D,H,M,O,R,V,X,Y,AA,AF,AJ,AM mandatory;
-  class E,F,I,N,P,S,T,W,AB,AC,AG,AK,AN,AO,AQ goodToLearn;
-  class J,AD,AH,AP optional;
-  class L,M,N,O,P chooseOne;
+  class B1,B2,B3,B4,B5,B6,C1,C5,D1,D3,E1,F1,F2,G1,G2,H1,H3,H4,I1,I2,I3,I4,I5,I6,J1,J2,J3,K1,K2,K3,L1,M2,N1,N3,O1,O2,O3,O4,P1,P2,P3,P4,P5,P6 purple;
+  class C2,C3,C4,C6,C7,C8,D4,D5,E2,E3,E4,E5,E6,F3,F4,F5,F6,F7,G6,G7,H2,L2,M1,N2,N4 green;
+  class F7,K4 gray;
+```
