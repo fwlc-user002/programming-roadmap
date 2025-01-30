@@ -2,23 +2,39 @@
 
 This roadmap is designed to guide you from foundational knowledge about networks, websites, and browsers to mastering everything a senior frontend developer should know. Follow this structured path to become a proficient frontend developer.
 
-## **Color Coding Explanation 🎨**
+## **🎨 Color Coding Explanation**
 
-### **🔴 Red (Mandatory):**
-These are the essential skills and knowledge areas that every frontend developer must master to build robust and scalable applications.
+### **🔴 Red (Mandatory - Essential Skills)**
+These are the fundamental skills that every frontend developer **must** master to work professionally.
 
-### **🟢 Green (Good to Learn):**
-These skills are not strictly required but are highly recommended to enhance your abilities and make you a more versatile developer.
+### **🟢 Green (Good to Learn)**
+These skills are not strictly required, but learning them will significantly improve your development capabilities.
 
-### **🔵 Blue (Optional):**
-These are optional tools or skills. You can explore them based on your interests or specific project requirements.
-
-### **⚫ Black (General Knowledge):**
-These are general knowledge areas that provide foundational understanding. While they may not directly impact your coding, they are crucial for a holistic understanding of frontend development.
+### **🔵 Blue (Optional - Based on Your Interest)**
+These skills are **not required** but can be beneficial depending on your projects and preferences.
 
 ---
 
-## Graphical Representation
+## **Categorized Skills**
+| **Skill**                | **Category**       | **Reason** |
+|--------------------------|-------------------|------------------------------------------------------|
+| **React.js**             | 🔴 Mandatory      | One of the most widely used frameworks, crucial for many jobs. |
+| **Vue.js**               | 🔵 Optional       | Great alternative to React but not mandatory. |
+| **Angular**              | 🔵 Optional       | Mostly used in enterprise-level projects, not required for all. |
+| **Bootstrap**            | 🔵 Optional       | Useful for fast UI development but not a must-learn. |
+| **Tailwind CSS**         | 🟢 Good to Learn  | Modern utility-first CSS framework, helpful for custom designs. |
+| **Redux**                | 🟢 Good to Learn  | Important for state management in large React projects. |
+| **RxJS**                 | 🔵 Optional       | Mostly for Angular apps, useful but not essential. |
+| **Git**                  | 🔴 Mandatory      | Version control is a must-have skill for any developer. |
+| **GitHub**               | 🔴 Mandatory      | Essential for collaboration and open-source contributions. |
+| **npm**                  | 🔴 Mandatory      | Needed for managing JavaScript dependencies. |
+| **yarn**                 | 🔵 Optional       | Alternative to npm, learning it is not necessary. |
+| **Webpack**              | 🟢 Good to Learn  | Important for optimizing and bundling front-end code. |
+| **Vite**                 | 🔵 Optional       | Faster alternative to Webpack, useful for modern projects. |
+
+---
+
+## **Graphical Representation**
 
 ```mermaid
 graph LR;
@@ -91,10 +107,8 @@ graph LR;
   classDef mandatory fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:#000,font-weight:bold;
   classDef goodToLearn fill:#ccffcc,stroke:#00ff00,stroke-width:2px,color:#000,font-weight:bold;
   classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
-  classDef general fill:#f0f0f0,stroke:#000000,stroke-width:2px,color:#000,font-weight:bold;
 
   %% Assign styles to nodes
-  class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ mandatory;
-  class F,I,T,AA,AB,AI,AJ,AQ,AT,AW,AX,BA,BC,BD,BF,BG,BI,BK,BL goodToLearn;
-  class W,X,Y,AD,AF,AG optional;
-  class C,G,L,R,AC,AK,AU,BH general;
+  class D,E,H,J,M,N,P,Q,S,AM,AN,AP,AS,AZ,BJ,AE,AM mandatory;
+  class F,I,T,AA,AB,AI,AJ,AQ,AT,AW,AX,BA,BC,BD,BF,BG,BI,BK,BL,AI,Redux,Webpack goodToLearn;
+  class W,X,Y,AD,AF,AG,Vue,Angular,Boostrap,Vite,RxJS,yarn optional;
