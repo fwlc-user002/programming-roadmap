@@ -2,6 +2,22 @@
 
 This roadmap is designed to guide you from foundational knowledge to mastering the skills of a senior backend developer. Follow this structured path to gain the necessary expertise.
 
+## **🎨 Color Coding Explanation**
+
+### **🔴 Red (Mandatory):**
+These are the core skills and knowledge areas every backend developer **must** master.
+
+### **🟢 Green (Good to Learn):**
+These are important skills that will enhance your backend development capabilities but are not strictly required.
+
+### **🔵 Blue (Optional):**
+These skills are optional and can be learned based on your project needs or interests.
+
+### **⚫ Black (General Knowledge):**
+Foundational knowledge that helps you understand the bigger picture.
+
+---
+
 ## Graphical Representation
 
 ```mermaid
@@ -49,46 +65,14 @@ graph LR;
   AL --> AP[8.4 Contribute to Open Source];
   AL --> AQ[8.5 Learn Scalability Patterns];
 
-  style A fill:#f9f,stroke:#333,stroke-width:4px,color:#000;
-  style B fill:#bbf,stroke:#333,stroke-width:4px,color:#000;
-  style C fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
-  style D fill:#fc9,stroke:#333,stroke-width:4px,color:#000;
-  style E fill:#f99,stroke:#333,stroke-width:4px,color:#000;
-  style F fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-  style G fill:#9cf,stroke:#333,stroke-width:4px,color:#000;
-  style H fill:#c9f,stroke:#333,stroke-width:4px,color:#000;
-  style I fill:#ff9,stroke:#333,stroke-width:4px,color:#000;
-  style J fill:#9ff,stroke:#333,stroke-width:4px,color:#000;
-  style K fill:#f9c,stroke:#333,stroke-width:4px,color:#000;
-  style L fill:#ccf,stroke:#333,stroke-width:4px,color:#000;
-  style M fill:#fcf,stroke:#333,stroke-width:4px,color:#000;
-  style N fill:#cff,stroke:#333,stroke-width:4px,color:#000;
-  style O fill:#9cf,stroke:#333,stroke-width:4px,color:#000;
-  style P fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
-  style Q fill:#ffc,stroke:#333,stroke-width:4px,color:#000;
-  style R fill:#cff,stroke:#333,stroke-width:4px,color:#000;
-  style S fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-  style T fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
-  style U fill:#f9f,stroke:#333,stroke-width:4px,color:#000;
-  style V fill:#bbf,stroke:#333,stroke-width:4px,color:#000;
-  style W fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
-  style X fill:#fc9,stroke:#333,stroke-width:4px,color:#000;
-  style Y fill:#f99,stroke:#333,stroke-width:4px,color:#000;
-  style Z fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-  style AA fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
-  style AB fill:#ccf,stroke:#333,stroke-width:4px,color:#000;
-  style AC fill:#cff,stroke:#333,stroke-width:4px,color:#000;
-  style AD fill:#fcf,stroke:#333,stroke-width:4px,color:#000;
-  style AE fill:#ffc,stroke:#333,stroke-width:4px,color:#000;
-  style AF fill:#cff,stroke:#333,stroke-width:4px,color:#000;
-  style AG fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-  style AH fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
-  style AI fill:#f9f,stroke:#333,stroke-width:4px,color:#000;
-  style AJ fill:#bbf,stroke:#333,stroke-width:4px,color:#000;
-  style AK fill:#cfc,stroke:#333,stroke-width:4px,color:#000;
-  style AL fill:#fc9,stroke:#333,stroke-width:4px,color:#000;
-  style AM fill:#f99,stroke:#333,stroke-width:4px,color:#000;
-  style AN fill:#9f9,stroke:#333,stroke-width:4px,color:#000;
-  style AO fill:#9cf,stroke:#333,stroke-width:4px,color:#000;
-  style AP fill:#cc9,stroke:#333,stroke-width:4px,color:#000;
-  style AQ fill:#ccf,stroke:#333,stroke-width:4px,color:#000;
+  %% Styles for categories
+  classDef mandatory fill:#ffcccc,stroke:#ff0000,stroke-width:2px,color:#000,font-weight:bold;
+  classDef goodToLearn fill:#ccffcc,stroke:#00ff00,stroke-width:2px,color:#000,font-weight:bold;
+  classDef optional fill:#ccccff,stroke:#0000ff,stroke-width:2px,color:#000,font-weight:bold;
+  classDef general fill:#f0f0f0,stroke:#000000,stroke-width:2px,color:#000,font-weight:bold;
+
+  %% Assign styles to nodes
+  class D,E,F,H,M,N,O,R mandatory;
+  class G,I,J,P,Q,S,T,AG,AF goodToLearn;
+  class W,X,Y,AD,AC,AM,AN optional;
+  class B,C,L,Z,AI,AL,AP,AE,AK general;
