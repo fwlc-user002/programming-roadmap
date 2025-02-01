@@ -40,7 +40,7 @@ graph LR;
   E --> E1[CSS Flexbox 🟣];
   E --> E2[CSS Grid 🟣];
   E --> E3[Responsive Design 🟣];
-  E --> E4[CSS Preprocessors (SASS/LESS) 🟢];
+  E --> E4[CSS Preprocessors (SASS & LESS) 🟢];
 
   A --> F[JavaScript Fundamentals];
   F --> F1[ES6+ Features 🟣];
