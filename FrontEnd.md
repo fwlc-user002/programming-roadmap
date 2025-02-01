@@ -81,7 +81,7 @@ graph LR;
   L --> L3[Image Optimization 🟣];
   L --> L4[Web Workers 🟢];
   
-  A --> M[Progressive Web Apps (PWA)];
+  A --> M[Progressive Web Apps PWA];
   M --> M1[Service Workers 🟢];
   M --> M2[Web App Manifest 🟢];
   M --> M3[Offline Support 🟢];
@@ -115,3 +115,4 @@ graph LR;
 ```
 
 This roadmap provides a clear and structured approach for becoming a frontend developer. Follow these steps, practice consistently, and build real-world projects to reinforce your knowledge. 🚀
+
