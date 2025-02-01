@@ -40,7 +40,7 @@ graph LR;
   E --> E1[CSS Flexbox 🟣];
   E --> E2[CSS Grid 🟣];
   E --> E3[Responsive Design 🟣];
-  E --> E4[CSS Preprocessors (SASS & LESS) 🟢];
+  E --> E4[CSS Preprocessors SASS LESS 🟢];
 
   A --> F[JavaScript Fundamentals];
   F --> F1[ES6+ Features 🟣];
@@ -113,6 +113,3 @@ graph LR;
   class B1,B2,B3,B4,B5,C1,C2,C3,D1,D2,E1,E2,E3,F1,F2,F3,F4,F5,G1,H1,I3,J1,K1,L1,L2,L3,N1,N4,O1,O4,P3 purple;
   class C4,E4,G2,G3,H2,H3,I1,I2,I4,J2,J3,K2,K3,L4,M1,M2,M3,N2,N3,O2,O3,P1,P2,P4 green;
 ```
-
-This roadmap provides a clear and structured approach for becoming a frontend developer. Follow these steps, practice consistently, and build real-world projects to reinforce your knowledge. 🚀
-
