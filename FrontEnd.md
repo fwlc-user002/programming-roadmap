@@ -71,7 +71,7 @@ graph LR;
   J --> J3[WebSockets 🟢];
 
   A --> K[Testing];
-  K --> K1[Unit Testing (Jest/Mocha) 🟣];
+  K --> K1[Unit Testing Jest-Mocha 🟣];
   K --> K2[Integration Testing 🟢];
   K --> K3[End-to-End Testing 🟢];
 
@@ -115,4 +115,3 @@ graph LR;
 ```
 
 This roadmap provides a clear and structured approach for becoming a frontend developer. Follow these steps, practice consistently, and build real-world projects to reinforce your knowledge. 🚀
-
