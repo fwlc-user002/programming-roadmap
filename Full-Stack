@@ -1,23 +1,18 @@
-# Full Stack Web Development Roadmap 🚀
-
+Full Stack Web Development Roadmap 🚀
 This roadmap is designed to guide you from foundational knowledge to mastering the skills of a senior full-stack web developer. Follow this structured path to gain the necessary expertise.
 
-## **🎨 Color Coding Explanation**
-
-### **🟣 Personal Recommendation / Opinion**
+🎨 Color Coding Explanation
+🟣 Personal Recommendation / Opinion
 These are highly recommended skills or technologies based on industry standards and trends.
 
-### **🟢 Alternative Option / Pick This or Purple**
+🟢 Alternative Option / Pick This or Purple
 These are optional alternatives; you can choose them based on your preferences or project needs.
 
-### **⚪ Order Not Strict / Learn Anytime**
+⚪ Order Not Strict / Learn Anytime
 These skills or technologies can be learned in any order depending on your progress and requirements.
 
----
-
-## **Graphical Representation**
-
-```mermaid
+Graphical Representation
+Mermaid
 graph LR;
   A[Full Stack] --> B[Internet Fundamentals];
   B --> B1[How does the Internet Work? 🟣];
@@ -102,6 +97,3 @@ graph LR;
   %% Assign styles to nodes
   class B1,B2,B3,B4,B5,C1,C2,C3,D1,D2,E1,E2,E3,F1,F2,F3,F4,F5,G1,H1,I1,J1,K1,K4,L1,M1,M4,N3,N5 purple;
   class C4,C5,E4,G2,G3,H2,H3,I2,I3,J2,J3,K2,K3,L2,L3,M2,M3,N1,N2,N4 green;
-```
-
-This roadmap provides a clear and structured approach for becoming a full-stack web developer. Follow these steps, practice consistently, and build real-world projects to reinforce your knowledge. 🚀
