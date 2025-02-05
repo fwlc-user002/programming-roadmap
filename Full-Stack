@@ -6,14 +6,9 @@ This roadmap is designed to guide you from foundational knowledge to mastering t
 
 ## 🎨 Color Coding Explanation
 
-### 🟣 **Personal Recommendation / Opinion**
-These are highly recommended skills or technologies based on industry standards and trends.
-
-### 🟢 **Alternative Option / Pick This or Purple**
-These are optional alternatives; you can choose them based on your preferences or project needs.
-
-### ⚪ **Order Not Strict / Learn Anytime**
-These skills or technologies can be learned in any order depending on your progress and requirements.
+- **(Recommended)** These are highly recommended skills or technologies based on industry standards and trends.
+- **(Alternative)** These are optional alternatives; you can choose them based on your preferences or project needs.
+- **(Anytime Learning)** These skills can be learned in any order depending on your progress and requirements.
 
 ---
 
@@ -22,78 +17,78 @@ These skills or technologies can be learned in any order depending on your progr
 ```mermaid
 graph LR;
   A[Fullstack] --> B[Internet Fundamentals];
-  B --> B1[How does the Internet Work? 🟣];
-  B --> B2[What is HTTP/HTTPS? 🟣];
-  B --> B3[What is DNS? 🟣];
-  B --> B4[Browsers and How They Work? 🟣];
-  B --> B5[Hosting and Deployment 🟣];
+  B --> B1[How does the Internet Work? (Recommended)];
+  B --> B2[What is HTTP/HTTPS? (Recommended)];
+  B --> B3[What is DNS? (Recommended)];
+  B --> B4[Browsers and How They Work? (Recommended)];
+  B --> B5[Hosting and Deployment (Recommended)];
 
   A --> C[Frontend Fundamentals];
-  C --> C1[HTML 🟣];
-  C --> C2[CSS 🟣];
-  C --> C3[JavaScript 🟣];
-  C --> C4[TypeScript 🟢];
+  C --> C1[HTML (Recommended)];
+  C --> C2[CSS (Recommended)];
+  C --> C3[JavaScript (Recommended)];
+  C --> C4[TypeScript (Alternative)];
 
   A --> D[Version Control];
-  D --> D1[Git 🟣];
-  D --> D2[GitHub/GitLab/Bitbucket 🟣];
+  D --> D1[Git (Recommended)];
+  D --> D2[GitHub/GitLab/Bitbucket (Recommended)];
 
   A --> E[CSS Fundamentals];
-  E --> E1[CSS Flexbox 🟣];
-  E --> E2[CSS Grid 🟣];
-  E --> E3[Responsive Design 🟣];
-  E --> E4[CSS Preprocessors SASS-LESS 🟢];
+  E --> E1[CSS Flexbox (Recommended)];
+  E --> E2[CSS Grid (Recommended)];
+  E --> E3[Responsive Design (Recommended)];
+  E --> E4[CSS Preprocessors SASS-LESS (Alternative)];
 
   A --> F[Frontend Frameworks];
-  F --> F1[React.js 🟣];
-  F --> F2[Vue.js 🟢];
-  F --> F3[Angular 🟢];
+  F --> F1[React.js (Recommended)];
+  F --> F2[Vue.js (Alternative)];
+  F --> F3[Angular (Alternative)];
 
   A --> G[State Management];
-  G --> G1[Redux 🟣];
-  G --> G2[Zustand/Jotai 🟢];
+  G --> G1[Redux (Recommended)];
+  G --> G2[Zustand/Jotai (Alternative)];
 
   A --> H[Backend Fundamentals];
-  H --> H1[Node.js 🟣];
-  H --> H2[Deno 🟢];
-  H --> H3[PHP 🟢];
-  H --> H4[Python (Django/Flask) 🟢];
-  H --> H5[Ruby on Rails 🟢];
+  H --> H1[Node.js (Recommended)];
+  H --> H2[Deno (Alternative)];
+  H --> H3[PHP (Alternative)];
+  H --> H4[Python (Django/Flask) (Alternative)];
+  H --> H5[Ruby on Rails (Alternative)];
 
   A --> I[Databases];
-  I --> I1[SQL (PostgreSQL/MySQL) 🟣];
-  I --> I2[NoSQL (MongoDB) 🟣];
+  I --> I1[SQL (PostgreSQL/MySQL) (Recommended)];
+  I --> I2[NoSQL (MongoDB) (Recommended)];
 
   A --> J[Authentication & Security];
-  J --> J1[JWT 🟣];
-  J --> J2[OAuth 🟢];
-  J --> J3[Session-based Auth 🟢];
-  J --> J4[CORS & CSRF Protection 🟣];
+  J --> J1[JWT (Recommended)];
+  J --> J2[OAuth (Alternative)];
+  J --> J3[Session-based Auth (Alternative)];
+  J --> J4[CORS & CSRF Protection (Recommended)];
 
   A --> K[APIs & Backend Interaction];
-  K --> K1[REST APIs 🟣];
-  K --> K2[GraphQL 🟢];
-  K --> K3[WebSockets 🟢];
+  K --> K1[REST APIs (Recommended)];
+  K --> K2[GraphQL (Alternative)];
+  K --> K3[WebSockets (Alternative)];
 
   A --> L[Testing];
-  L --> L1[Unit Testing (Jest/Mocha) 🟣];
-  L --> L2[Integration Testing 🟢];
-  L --> L3[End-to-End Testing 🟢];
+  L --> L1[Unit Testing (Jest/Mocha) (Recommended)];
+  L --> L2[Integration Testing (Alternative)];
+  L --> L3[End-to-End Testing (Alternative)];
 
   A --> M[Performance Optimization];
-  M --> M1[Lazy Loading 🟣];
-  M --> M2[Code Splitting 🟣];
-  M --> M3[Database Optimization 🟣];
-  M --> M4[Web Workers 🟢];
+  M --> M1[Lazy Loading (Recommended)];
+  M --> M2[Code Splitting (Recommended)];
+  M --> M3[Database Optimization (Recommended)];
+  M --> M4[Web Workers (Alternative)];
   
   A --> N[DevOps & Deployment];
-  N --> N1[Docker 🟢];
-  N --> N2[Kubernetes 🟢];
-  N --> N3[Vercel/Netlify 🟣];
-  N --> N4[AWS/GCP/Azure 🟢];
+  N --> N1[Docker (Alternative)];
+  N --> N2[Kubernetes (Alternative)];
+  N --> N3[Vercel/Netlify (Recommended)];
+  N --> N4[AWS/GCP/Azure (Alternative)];
 
   A --> O[Build Tools & Package Managers];
-  O --> O1[Webpack 🟣];
-  O --> O2[Vite 🟢];
-  O --> O3[Parcel 🟢];
-  O --> O4[NPM/Yarn/Pnpm 🟣];
+  O --> O1[Webpack (Recommended)];
+  O --> O2[Vite (Alternative)];
+  O --> O3[Parcel (Alternative)];
+  O --> O4[NPM/Yarn/Pnpm (Recommended)];
