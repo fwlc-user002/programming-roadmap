@@ -1,3 +1,21 @@
+---
+layout: default
+title: Programming Roadmap
+---
+
+# 🚀 Welcome to Programming Roadmap!
+
+This site provides a step-by-step guide to learning programming.
+
+```mermaid
+graph TD;
+    A[Start Learning] --> B[Choose a Language];
+    B --> C[Learn Syntax];
+    C --> D[Build Projects];
+    D --> E[Master Advanced Concepts];
+```
+
+
 # Frontend Roadmap 🚀
 
 This roadmap is designed to guide you from foundational knowledge to mastering the skills of a senior frontend developer. Follow this structured path to gain the necessary expertise.
