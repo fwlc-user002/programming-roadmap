@@ -1,0 +1,8 @@
+site_name: My Markdown Site
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - File 1: file1.md
+  - File 2: file2.md
+  - File 3: file3.md
