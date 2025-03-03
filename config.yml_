@@ -1,8 +1,0 @@
-title: "programming roadmap"
-description: "this site create for all programmers to know what thy should learn in next step"
-theme: jekyll-theme-cayman  
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-mermaid

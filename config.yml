@@ -1,0 +1,8 @@
+title: "Programming Roadmap"
+description: "A roadmap for learning programming step by step"
+theme: jekyll-theme-cayman  
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-mermaid  
