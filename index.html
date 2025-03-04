@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming Roadmap</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🚀 Programming Roadmap</h1>
+      <p>A structured guide to mastering different programming fields.</p>
+    </header>
+
+    <main>
+      <h2>📌 Select a roadmap to view the content</h2>
+
+      <div class="roadmap-categories">
+        <div class="category">
+          <h3>🌐 Web Development</h3>
+          <button onclick="loadRoadmap('frontend')">
+            Frontend Development
+          </button>
+          <button onclick="loadRoadmap('backend')">Backend Development</button>
+          <button onclick="loadRoadmap('fullstack')">
+            Full Stack Development
+          </button>
+        </div>
+
+        <div class="category">
+          <h3>📊 Data & AI</h3>
+          <button onclick="loadRoadmap('datascience')">Data Science</button>
+          <button onclick="loadRoadmap('machinelearning')">
+            Machine Learning
+          </button>
+          <button onclick="loadRoadmap('ai')">Artificial Intelligence</button>
+        </div>
+
+        <div class="category">
+          <h3>☁️ DevOps & Cloud</h3>
+          <button onclick="loadRoadmap('devops')">DevOps</button>
+          <button onclick="loadRoadmap('cloud')">Cloud Computing</button>
+          <button onclick="loadRoadmap('kubernetes')">Kubernetes</button>
+        </div>
+
+        <div class="category">
+          <h3>🔒 Cyber Security</h3>
+          <button onclick="loadRoadmap('cybersecurity')">Cyber Security</button>
+          <button onclick="loadRoadmap('ethicalhacking')">
+            Ethical Hacking
+          </button>
+          <button onclick="loadRoadmap('penetrationtesting')">
+            Penetration Testing
+          </button>
+        </div>
+
+        <div class="category">
+          <h3>📱 Mobile & Game Development</h3>
+          <button onclick="loadRoadmap('mobile')">Mobile Development</button>
+          <button onclick="loadRoadmap('android')">Android Development</button>
+          <button onclick="loadRoadmap('ios')">iOS Development</button>
+          <button onclick="loadRoadmap('game')">Game Development</button>
+        </div>
+
+        <div class="category">
+          <h3>⛓️ Blockchain & Emerging Tech</h3>
+          <button onclick="loadRoadmap('blockchain')">
+            Blockchain Development
+          </button>
+          <button onclick="loadRoadmap('web3')">Web3 Development</button>
+          <button onclick="loadRoadmap('iot')">Internet of Things (IoT)</button>
+        </div>
+      </div>
+
+      <section id="content">
+        <p>Click on a roadmap to load the content.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Programming Roadmap. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (window.mermaid) {
+          mermaid.initialize({ startOnLoad: true });
+          console.log("✅ Mermaid.js loaded successfully!");
+        } else {
+          console.error("❌ Mermaid.js failed to load.");
+        }
+      });
+    </script>
+  </body>
+</html>
