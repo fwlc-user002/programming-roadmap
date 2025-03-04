@@ -6,6 +6,10 @@ body {
   background-color: #f9f9f9;
 }
 
+ul {
+  list-style: none;
+}
+
 header {
   background-color: #4caf50;
   color: white;
